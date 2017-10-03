@@ -1,0 +1,43 @@
+#sky {
+	width: 600px;
+	height: 300px;
+	animation-name: day;
+	animation-duration: 7s;
+	overflow: hidden;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+
+@keyframes day {
+	0% {
+		background: linear-gradient(#005c99, #0099ff);
+	}
+	10% {
+		background: linear-gradient(#006bb3, #1aa3ff);
+	}
+	20% {
+		background: linear-gradient(#007acc, #33adff);
+	}
+	30% {
+		background: linear-gradient(#008ae6, #4db8ff);
+	}
+	40% {
+		background: linear-gradient(#0099ff, #66c2ff);
+	}
+	50% {
+		background: linear-gradient(#008ae6, #4db8ff);
+	}
+	60% {
+		background: linear-gradient(#007acc, #33adff);
+	}
+	70% {
+		background: linear-gradient(#006bb3, #1aa3ff);
+	}
+	80% {
+		background: linear-gradient(#005c99, #0099ff);
+	}
+	100% {
+		background: linear-gradient(#004d80, #008ae6);
+	}
+}

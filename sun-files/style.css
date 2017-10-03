@@ -1,0 +1,73 @@
+#sun {
+	width: 100px;
+	height: 100px;
+	border: 2px solid orange;
+	background-color: orange;
+	border-radius: 50px;
+	position: relative;
+	animation-name: rotation;
+	animation-duration: 7s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+	0% {
+		top: 300px;
+		left: 0px;
+		background-color: orange;
+		border: 2px solid orange;
+	}
+	10% {
+		top: 245px;
+		left: 40px;
+	}
+	20% {
+		top: 150px;
+		left: 90px;
+	}
+	30% {
+		top: 60px;
+		left: 150px;
+	}
+	40% {
+		top: 10px;
+		left: 200px;
+	}
+	45% {
+		top: 4px;
+		left: 220px;
+	}
+	50% {
+		top: 3px;
+		left: 230px;
+		background-color: yellow;
+		border: 2px solid yellow;
+	}
+	55% {
+		top: 4px;
+		left: 240px;
+	}
+	60% {
+		top: 10px;
+		left: 260px;
+	}
+	70% {
+		top: 60px;
+		left: 310px;
+	}
+	80% {
+		top: 150px;
+		left: 370px;
+	}
+	90% {
+		top: 245px;
+		left: 460px;
+	}
+	100% {
+		top: 300px;
+		left: 500px;
+		background-color: orange;
+		background-color: 2px soid orange;
+	}
+}
